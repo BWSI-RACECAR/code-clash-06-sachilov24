@@ -57,6 +57,7 @@ class Solution:
             for i in range(numbers[0], numbers[-1]+1):
                  if i not in numbers:
                       missing_num.append(i)
+                      int(missing_num)
             return missing_num
                  
 
